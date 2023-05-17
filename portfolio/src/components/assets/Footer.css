@@ -1,5 +1,5 @@
 footer {
-    background-color: #333;
+    background-color:  #221789;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -15,6 +15,7 @@ footer {
   
   li {
     margin: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   a {
@@ -26,3 +27,9 @@ footer {
     color: #ffcc00;
   }
   
+  .logo {
+    width: 150px;
+      height: auto;
+      margin-bottom: 20px;
+      cursor: pointer;
+  }
