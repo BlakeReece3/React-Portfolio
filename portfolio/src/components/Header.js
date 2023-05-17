@@ -1,5 +1,6 @@
 import React from 'react';
-import Navigation from './Navigation';
+import Navigation from '../Navigation';
+import './assets/Header.css'
 
 const Header = () => {
   return (
@@ -11,3 +12,4 @@ const Header = () => {
 };
 
 export default Header;
+
