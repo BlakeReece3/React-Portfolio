@@ -6,10 +6,10 @@ const Navigation = () => {
     return (
       <nav>
         <ul>
-          <li onClick={() => handleNavigationClick('about')}>About Me</li>
-          <li onClick={() => handleNavigationClick('portfolio')}>Portfolio</li>
-          <li onClick={() => handleNavigationClick('contact')}>Contact</li>
-          <li onClick={() => handleNavigationClick('resume')}>Resume</li>
+          <li onClick={() => handleNavigationClick('About')}>About Me</li>
+          <li onClick={() => handleNavigationClick('Portfolio')}>Portfolio</li>
+          <li onClick={() => handleNavigationClick('Contact')}>Contact</li>
+          <li onClick={() => handleNavigationClick('Resume')}>Resume</li>
         </ul>
       </nav>
     );
