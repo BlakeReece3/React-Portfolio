@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
       <section>
         <h2>My Portfolio</h2>
-        {/* Add portfolio projects */}
+        {<p>Here are a few of my projects:</p> }
       </section>
     );
   };
