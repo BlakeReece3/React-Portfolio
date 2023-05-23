@@ -26,19 +26,20 @@ nav li:hover {
   color: #ffcc00;
 } */
 .header {
-  background-color: #333;
+  background-color:  #221789;
   padding: 10px;
-  color: #fff;
 }
 
 .logo {
-  color: #fff;
-  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
   text-decoration: none;
 }
 
 .navbar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -48,10 +49,10 @@ nav li:hover {
   margin-left: 10px;
 }
 
-.nav-links button {
+/* .nav-links button {
   background: none;
   border: none;
-  color: #fff;
+  color: black;
   font-size: 1rem;
   cursor: pointer;
-}
+} */
