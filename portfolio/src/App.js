@@ -1,41 +1,37 @@
-import "./App.css";
-import React, { useState } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navigation from './components/navigation/Navigation';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import About from './components/about/About';
+import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
+import Resume from './components/resume/Resume';
 
 const App = () => {
-  const [currentTab, setCurrentTab] = useState('about');
-
-  // Mapping of tab names to their corresponding components
-  const tabComponents = {
-    about: <About />,
-    portfolio: <Portfolio />,
-    contact: <Contact />,
-    resume: <Resume />,
-  };
-
-  // This function generates the tab component based on the currentTab value
-  const renderTab = () => {
-    return tabComponents[currentTab] || null;
-  };
-
   return (
-    <div>
-      <div className="mobile-header">
-        <Header currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      </div>
+    <Router>
       <div>
-        <main>{renderTab()}</main>
+        <div className="mobile-header">
+          <Header />
+        </div>
+        <div>
+          <Navigation />
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/" element={<About />} />
+          </Routes>
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
-      <div>
-        <Footer />
-      </div>
-    </div>
+    </Router>
   );
 };
 
 export default App;
+

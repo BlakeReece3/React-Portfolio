@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../photos/BlakeReece.jpeg';
+import photo from '../../photos/BlakeReece.jpeg';
 function About() {
 	return (
 		<section>

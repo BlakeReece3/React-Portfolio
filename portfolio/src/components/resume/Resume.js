@@ -1,5 +1,5 @@
 import React from "react";
-import resumePdf from "../photos/resume file/BlakeReeceResume.pdf";
+import resumePdf from "../../photos/file/BlakeReeceResume.pdf";
 
 function Resume() {
   return (
