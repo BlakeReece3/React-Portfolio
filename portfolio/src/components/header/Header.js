@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <Link to="/" className="logo">Blake Reece</Link>
+        <Link to="/" className="name">Blake Reece</Link>
         <ul className="nav-links">
           <li><button onClick={() => handleNavLinkClick('/about')}>About</button></li>
           <li><button onClick={() => handleNavLinkClick('/portfolio')}>Portfolio</button></li>
