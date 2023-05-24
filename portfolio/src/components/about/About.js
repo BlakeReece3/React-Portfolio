@@ -13,8 +13,7 @@ function About() {
 			</div>
 			<div>
 				<p>
-					Hi There! I'm Blake Reece, a full stack web developer currently enrolled
-                    in the University of Arizona Coding Bootcamp. 
+				Hello, I'm Blake Reece, originally from Chicago and now based in Phoenix. I recently enrolled in the University of Arizona Coding Bootcamp, where I'm pursuing my passion for web development. With a previous career as a barber, I've developed strong attention to detail and excellent customer service skills. In the bootcamp, I've been immersing myself in various programming languages and frameworks, equipping me to build robust web applications. I'm excited to merge my creativity and problem-solving abilities with my technical expertise, aiming to create innovative and user-friendly digital experiences.
 			
 				</p>
 			</div>
