@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.b61d66ec.css",
-    "main.js": "/React-Portfolio/static/js/main.5238d135.js",
+    "main.js": "/React-Portfolio/static/js/main.f3cb6188.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Motivate.png": "/React-Portfolio/static/media/Motivate.f17c834a5a93fd7c5cd5.png",
     "static/media/resume.png": "/React-Portfolio/static/media/resume.a81da52f7a809215e2c3.png",
     "static/media/BlakeReece.jpeg": "/React-Portfolio/static/media/BlakeReece.fbc83f28407dbfcb96a4.jpeg",
+    "static/media/InkWatch.png": "/React-Portfolio/static/media/InkWatch.e1b5470a8e22012da23d.png",
     "static/media/BlakeReeceResume.pdf": "/React-Portfolio/static/media/BlakeReeceResume.74fcc182e148d1c3f8aa.pdf",
+    "static/media/weatherdash.png": "/React-Portfolio/static/media/weatherdash.fa7d25cc5804ef7dcae7.png",
+    "static/media/Password.png": "/React-Portfolio/static/media/Password.de7715e9df98720c2790.png",
     "index.html": "/React-Portfolio/index.html",
     "main.b61d66ec.css.map": "/React-Portfolio/static/css/main.b61d66ec.css.map",
-    "main.5238d135.js.map": "/React-Portfolio/static/js/main.5238d135.js.map",
+    "main.f3cb6188.js.map": "/React-Portfolio/static/js/main.f3cb6188.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b61d66ec.css",
-    "static/js/main.5238d135.js"
+    "static/js/main.f3cb6188.js"
   ]
 }
